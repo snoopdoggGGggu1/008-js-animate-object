@@ -1,12 +1,24 @@
+body{
+  
+
+}
+
 .character{
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   position:absolute;
   bottom: 20%;
   left: 10%;
-  background-image: url('mario.webp');
+  background-image: url(spiderman.jpg);
   background-size: cover;
+
+
 }
+
+  
+
+
+
 
 .jump{
   animation: jump 1000ms forwards;
