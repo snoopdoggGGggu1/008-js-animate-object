@@ -1,21 +1,29 @@
+
 body{
+  background-image: url(background.jpg);
   
 
 }
 
 .character{
-  width: 300px;
+  width: 400px;
   height: 300px;
   position:absolute;
   bottom: 20%;
   left: 10%;
-  background-image: url(spiderman.jpg);
+  background-image: url(cutespiderman.png);
   background-size: cover;
 
 
 }
 
   
+
+
+
+
+
+
 
 
 
@@ -34,3 +42,4 @@ body{
       transform: rotate(-360deg);
     }
 }
+
