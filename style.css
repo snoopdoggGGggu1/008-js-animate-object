@@ -1,6 +1,7 @@
 
 body{
   background-image: url(background.jpg);
+  background-size: auto 160vh;
   
 
 }
@@ -10,14 +11,51 @@ body{
   height: 300px;
   position:absolute;
   bottom: 20%;
-  left: 10%;
+  left: 40%;
   background-image: url(cutespiderman.png);
   background-size: cover;
 
-
 }
 
+
   
+.enemy{
+  position: absolute;
+  top: 60%;
+  left: 100%;
+  background-image: url(green_goblin.png);
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  animation: enemyAnim 4s linear infinite;
+  
+}
+
+@keyframes enemyAnim {
+  25%{
+    width: 200px;
+  }
+  50%{
+    top: 20%;
+    width: 200px;
+  }
+  75%{
+    width: 300px;
+    transform:rotate(90deg);
+  }
+  100%{
+    width: 200px;
+    left: -30%;
+  }
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -35,7 +73,7 @@ body{
 
 @keyframes  jump {
     50%{
-      bottom: 60%;
+      bottom: 150%;
     }
     100%{
       bottom: 20%;
